@@ -1,0 +1,1 @@
+This repository contains a bash script demonstrating a race condition.  The script launches two background processes that write to separate files concurrently. The order of their output is not guaranteed, highlighting a potential issue with concurrent process execution in shell scripting. A solution is provided to address this using process synchronization mechanisms.
